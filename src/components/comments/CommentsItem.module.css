@@ -1,0 +1,29 @@
+.container {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  background-color: whitesmoke;
+}
+
+.name {
+  font-size: 14px;
+  margin: 0;
+}
+
+.name::first-letter{
+  text-transform: uppercase;
+}
+
+.email {
+  font-size: 12px;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.body {
+  font-size: 12px;
+}
+
+.body::first-letter {
+  text-transform: uppercase;
+}

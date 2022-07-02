@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid;
+  padding: 10px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 33.33%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.block + .block {
+  margin-left: 10px;
+}
+
+.blockTitle {
+  font-size: 12px;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+.item {
+  font-size: 10px;
+}
+
+.item + .item {
+  margin-top: 5px
+}
+
+.itemTitle {
+  font-weight: bold;
+}
+

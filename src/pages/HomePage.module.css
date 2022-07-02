@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.users,
+.userContent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.users {
+  flex: 1 0 60%;
+}
+
+.userContent {
+  flex: 1 0 40%;
+}
